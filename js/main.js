@@ -48,3 +48,15 @@ btns.forEach(btn => {
 //         header.style.position = "inherit";
 //     }
 // };
+
+
+// showhied nav 
+let navBar = document.querySelector('nav');
+let showHideNav = document.querySelector('.menu-icon');
+let openNav = document.querySelector('.fa-bars');
+let closeNav = document.querySelector('.fa-close');
+
+showHideNav.onclick = () => {
+    navBar.classList.toggle('show');
+    showHideNav.classList.toggle('show_icon');
+}   
